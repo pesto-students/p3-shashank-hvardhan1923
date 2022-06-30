@@ -1,12 +1,10 @@
 :root {
-  --blue: blue;
-  --red: red;
-  --yellow: yellow;
-  --green: green;
+  --blue: #1a12f6;
+  --red: #E11023;
+  --yellow: #ECE921;
+  --green: #3A9C12;
   --font-small: 30px;
 }
-
-
 .box{  
     width: 100px;
     height: 100px;
