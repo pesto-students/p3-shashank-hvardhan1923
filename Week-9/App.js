@@ -5,12 +5,9 @@ export default function App(props) {
   const [task, setTask] = useState("");
   const [array, setArray] = useState(["my first default task"]);
   function addToArray(event) {
-    // console.log("task-", task);
     setArray([...array, task]);
     setTask("");
-    // console.log(array);
   }
-
   function deleteItem(id) {
     setArray(array.filter((element, index) => index !== id));
     // console.log(id);
